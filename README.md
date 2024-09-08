@@ -8,7 +8,7 @@ I'm using it from my [PHP Template App](https://github.com/toomasr/php-template-
 
 ```
 php:
-    image: toomasr:php7-with-stuff
+    image: toomasr:php8-with-stuff
 ```
 
 I actually use it from **nginx** so my configuration looks like this. Please refer to [PHP Template App](https://github.com/toomasr/php-template-app) for a fully functioning example.
@@ -25,7 +25,7 @@ web:
     - php
 
 php:
-    image: toomasr:php7-with-stuff
+    image: toomasr:php8-with-stuff
     volumes:
       - ./website/public_html:/var/www/html
       - ./website/lib:/var/www/lib
